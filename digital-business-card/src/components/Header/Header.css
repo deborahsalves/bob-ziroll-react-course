@@ -1,0 +1,62 @@
+.header{
+    width: 317px;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+    margin: 44px auto;
+    overflow: hidden;
+    background-color: #1A1B21;
+}
+.profile-pic{
+    width: 317px;
+}
+.business-name{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 21px;
+}
+.description{
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    margin-top: 6.19px;
+}
+.website, .website--link, .website--link:link {
+    font-size: 10.24px;
+    line-height: 15.36px;
+    text-align: center;
+    color: #FFF;
+    margin-top: 8.81px;
+    text-decoration: none;
+}
+.contact-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+    padding: 0 35px;
+}
+.profile-button{
+    display: inline;
+    width: 115px;
+    height: 34px;
+    padding: 9px 18px;
+    justify-content: space-around;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+}
+.profile-button.email{
+    background-color: #FFFFFF;
+    color: #374151;
+}
+.profile-button.linkedin{
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
