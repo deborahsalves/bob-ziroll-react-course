@@ -33,6 +33,17 @@
     margin-top: 8.81px;
     text-decoration: none;
 }
+
+.website--link:visited {
+    color: #918E9B;
+    text-decoration: underline;
+}
+
+.website--link:focus, .website--link:hover, .website--link:active {
+    color: #F3BF99;
+    text-decoration: underline;
+}
+
 .contact-buttons {
     display: flex;
     justify-content: space-between;
@@ -53,7 +64,10 @@
     font-size: 14px;
     line-height: 16px;
     font-weight: 600;
+    text-decoration: none;
+    text-align: center;
 }
+
 .profile-button.email{
     background-color: #FFFFFF;
     color: #374151;
@@ -61,4 +75,9 @@
 .profile-button.linkedin{
     background-color: #5093E2;
     color: #FFFFFF;
+}
+
+.profile-button.email:hover, .profile-button.linkedin:hover{
+    background-color: #F3BF99;
+    color: #1A1B21;
 }

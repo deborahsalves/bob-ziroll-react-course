@@ -10,8 +10,8 @@ export const Header = () => {
             <p className="description">Front-end developer</p>
             <p className="website"><a className="website--link" href="https://deborahsalves.github.io/" target="_blank" title="Déborah Salves's professional website">deborahsalves.github.io</a></p>
             <div className="contact-buttons">
-                <button className="profile-button email"><i class="lni lni-envelope"></i> Email</button>
-                <button className="profile-button linkedin"><i class="lni lni-linkedin-original"></i> LinkedIn</button>
+                <a className="profile-button email" href="mailto:salves.deborah@gmail.com"><i class="lni lni-envelope"></i> Email</a>
+                <a className="profile-button linkedin" href="https://www.linkedin.com/in/deborahsalves/" target="_blank"><i class="lni lni-linkedin-original"></i> LinkedIn</a>
             </div>
         </header>
     )

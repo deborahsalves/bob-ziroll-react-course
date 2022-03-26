@@ -32,3 +32,7 @@
 .social-links > li > a:link{
     color: #161619;
 }
+
+.social-links > li:hover{
+    background-color: #F3BF99;
+}
