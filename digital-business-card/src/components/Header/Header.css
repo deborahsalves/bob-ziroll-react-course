@@ -2,7 +2,8 @@
     width: 317px;
     border: 0;
     border-radius: 10px 10px 0 0;
-    margin: 44px auto;
+    margin: 0 auto;
+    margin-bottom: 0;
     overflow: hidden;
     background-color: #1A1B21;
 }
@@ -37,6 +38,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 15px auto;
+    margin-bottom: 33px;
     padding: 0 35px;
 }
 .profile-button{

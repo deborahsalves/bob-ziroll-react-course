@@ -1,5 +1,9 @@
 .container{
     width: 560px;
     background-color: #23252C;
-    margin: 53px auto;
+    margin: 0 auto;
+    padding: 44px 0;
+}
+.main{
+    background-color: #23252C;
 }
