@@ -1,23 +1,14 @@
 import React from 'react';
 import { Joke } from '../Joke/Joke'
+import { jokesData } from '../../api/jokesData';
 
 export const App = () => {
     return(
         <main>
             <h1>App</h1>
-            <Joke 
-                setup="" 
-                punchline="It's hard to explain puns to kleptomaniacs because 
-they always take things literally."
-            />
-            <Joke 
-                setup="I got my daughter a fridge for her birthday." 
-                punchline="I can't wait to see her face light up when she opens it."
-            />
-            <Joke 
-                setup="How did the hacker escape the police?" 
-                punchline="He just ransomware!"
-            />
+            {jokesData.map(joke => {
+                return <Joke setup={joke.setup} punchline={joke.punchline}/>
+            })}
         </main>
     )
 }
