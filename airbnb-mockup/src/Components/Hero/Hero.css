@@ -1,6 +1,7 @@
 .main-hero{
     margin: 0 auto;
-    padding: 26px 36px;
+    padding: 30px 20px;
+    text-align: center;
 }
 .hero-image{
     height: 232px;

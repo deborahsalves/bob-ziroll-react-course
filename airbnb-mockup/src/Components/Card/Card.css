@@ -1,8 +1,10 @@
 .experience-card{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: flex-start;
     align-content: center;
+    flex: 0 0 auto;
+    flex-wrap: nowrap;
     width: 176px;
     height: 302px;
     font-family: 'Poppins';
@@ -18,7 +20,6 @@
     width: 176px;
     height: 235px;
     border-radius: 9px;
-    background-image: url('../../images//katie-zaferes.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 8px;

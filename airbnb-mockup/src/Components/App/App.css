@@ -2,3 +2,12 @@
     width: 550px;
     margin: 0 auto;
 }
+
+.experiences{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 18px;
+    overflow-x: auto;
+    padding: 20px;
+}
