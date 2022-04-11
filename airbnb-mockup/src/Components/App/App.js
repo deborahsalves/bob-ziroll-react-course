@@ -17,13 +17,18 @@ export const App = () => {
                     {data.map(card => {
                         return <Card
                                 key={card.id}
-                                img={card.coverImg}
-                                cardBadge={card.openSpots !== 0 ? card.location : "Sold out"}
-                                ratingText={card.stats.rating}
-                                ratingCount={card.stats.reviewCount}
-                                ratingCountry={card.location}
-                                experienceTitle={card.title}
-                                experiencePrice={card.price}
+                                {...card}
+                                // first of all, dont screw w propety names
+                                // second, if you pass it deconstructed, 
+                                    // you can save space here,
+                                    // and at the same time keep readability in Card component
+                                // img={card.coverImg}
+                                // cardBadge={card.openSpots !== 0 ? card.location : "Sold out"}
+                                // ratingText={card.stats.rating}
+                                // ratingCount={card.stats.reviewCount}
+                                // ratingCountry={card.location}
+                                // experienceTitle={card.title}
+                                // experiencePrice={card.price}
                             />
                     })}
                 </section>
