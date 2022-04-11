@@ -2,12 +2,18 @@ import React from "react";
 import './Card.css';
 
 export const Card = (props) => {
+    let badgeText;
+    if(props.cardBadge === "Sold out"){
+        badgeText = "Sold out";
+    } else if (props.cardBadge === "Online") {
+        badgeText = "Online";
+    }
     return (
         <article className="experience-card">
             <div className="experience-image" 
             style={{backgroundImage: `url(../images/${props.img})`}} 
             alt={props.experienceTitle}>
-                <p className="card-badge">{props.cardBadge}</p>
+                {badgeText && <p className="card-badge">{props.cardBadge}</p>}
             </div>
             <div className="experience-info">
                 <div className="experience-rating">
