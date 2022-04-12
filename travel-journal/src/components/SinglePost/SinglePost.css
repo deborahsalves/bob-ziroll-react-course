@@ -1,0 +1,74 @@
+.journal-entry{
+    display: flex;
+    flex-direction: row;
+    margin: 36px 0;
+    height: 168px;
+}
+
+.entry-thumb{
+    display: inline;
+    border: 0;
+    border-radius: 5px;
+    width: 125px;
+}
+
+.entry-data{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.entry-location{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-bottom: 4px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+}
+
+/* should be an icon, but I was lazy */
+.location-pin{
+    width: auto;
+    height: 100%;
+    margin-right: 4px;
+}
+
+.location-map{
+    letter-spacing: 0;
+    text-transform: none;
+    color: #918E9B;
+    margin-left: 12px;
+}
+.location-map > a{
+    text-decoration: underline;
+    color: #918E9B;
+}
+
+.location-map > a:visited {
+    text-decoration: none;
+} 
+.location-map > a:focus, 
+.location-map > a:hover, 
+.location-map > a:active {
+    text-decoration: underline;
+    color: #F55A5A;
+}
+
+.entry-title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 13px;
+}
+.entry-dates{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 9px;
+}
