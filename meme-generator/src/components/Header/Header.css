@@ -1,0 +1,33 @@
+h1{
+    display: inline;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    letter-spacing: -.1rem;
+    color: #FAFAFA;
+    margin: auto 0;
+    margin-right: auto;
+}
+
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.5rem;
+    padding: 2rem;
+    background: linear-gradient(90deg, #672280, #A626D3);
+}
+
+.site-logo{
+    width: 3rem;
+    height: auto;
+    margin-right: 0.6rem;
+}
+
+.project-name{
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: #FAFAFA;
+    text-align: right;
+}
